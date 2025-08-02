@@ -1,0 +1,12 @@
+
+public class logicalAnd {
+	public static void main(String[] args) {
+		int t=40,p=90;
+		if(p>40 && t>40) {
+			System.out.println("Pass");
+		}else {
+			System.out.println("Fail");
+		}
+	}
+
+}
