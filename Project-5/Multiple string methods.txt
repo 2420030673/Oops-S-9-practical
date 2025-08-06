@@ -1,0 +1,17 @@
+package Hello;
+
+public class Multiplestringmethod {
+	public static void main(String[] args) {
+		String text = "Java Programming";
+
+        System.out.println("Original Text: " + text);
+        System.out.println("Length: " + text.length());
+        System.out.println("Uppercase: " + text.toUpperCase());
+        System.out.println("Lowercase: " + text.toLowerCase());
+        System.out.println("Substring (5 to 15): " + text.substring(5, 15));
+        System.out.println("Character at index 3: " + text.charAt(3));
+        System.out.println("Index of 'gram': " + text.indexOf("gram"));
+
+	}
+
+}
